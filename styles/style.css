@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background-color: rgb(255, 255, 255);
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+  width: 100%;
+  position: fixed;
+}
+.header {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 1200px;
+}
+.left-section {
+  display: flex;
+  margin-left: 100px;
+  width: 60%;
+}
+.right-section {
+  display: flex;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 50;
+  justify-content: space-between;
+  color: rgb(197, 197, 197);
+  align-items: left;
+  margin-right: 15px;
+  flex: 1;
+}
+.main-page {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  vertical-align: top;
+  width: 100%;
+  z-index: 200;
+}
+.main-section {
+  display: inline-block;
+  justify-content: space-between;
+  z-index: 100;
+}
+.div-img {
+  margin-right: 0px;
+}
+.section-h1-p {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  vertical-align: bottom;
+}
+.div-h1 {
+  color: rgb(10, 3, 24);
+  font-size: 27px;
+  font-family: Roboto, Arial;
+  font-weight: 900;
+  width: 300px;
+}
+.div-p {
+  color: rgb(133, 132, 132);
+  font-size: 15px;
+  flex: 1;
+  margin-top: 10px;
+  margin-left: 75px;
+}  
+.btn-readmore {
+  border: rgb(25, 36, 56);
+  border-radius: 1px;
+  background-color: rgb(214, 112, 112);
+  color: white;
+  padding: 14px 28px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.btn-readmore:hover {background: rgb(13, 18, 27);}
+
+.aside-section {
+  color: white;
+  display: inline-block;
+  background-color: rgb(0, 0, 66);
+  max-height: 400px;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 0;
+  width: 500px;
+}
+.div-new {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.div-new-h1 {
+  color: rgb(228, 186, 48);
+}
+.div-the {
+  padding-top: 30px;
+  padding-bottom: 10px; 
+}
+.div-funding {
+  padding-top: 30px;
+  padding-bottom: 5px;  
+}
+.footer {
+  display: flex;
+  flex: 1;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.retro-footer {
+  display: flex;
+}
+.retro-info {
+  margin-left: 10px;
+}
+.retro-h1 {
+  color: rgb(202, 207, 211);
+  font-family: Arial;
+}
+.retro-h3 {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  size: 18px;
+}
+.retro-p {
+  color: rgb(201, 202, 202);
+  font-family: roboto, Arial;
+  size: 23px;
+}
+.laptops-footer {
+  display: flex;
+  margin-left: 100px;
+}
+.laptops-info {
+  margin-left: 10px;
+}
+.laptops-h1 {
+  color: rgb(202, 207, 211);
+  font-family: Arial;
+}
+.laptops-h3 {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  size: 18px; 
+}
+.laptops-p {
+  color: rgb(201, 202, 202);
+  font-family: roboto, Arial;
+  size: 23px;
+}
+.div-growth {
+  display: flex;
+  margin-left: 125px;
+}
+.growth-info {
+  margin-left: 10px;
+}
+.growth-h1 {
+  color: rgb(202, 207, 211);
+  font-family: Arial;
+}
+.growth-h3 {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  size: 18px; 
+}
+.growth-p {
+  color: rgb(201, 202, 202);
+  font-family: roboto, Arial;
+  size: 23px;
+}
+
+@media screen and (max-width: 390px) {
+  .div-img {
+    width: 350px;
+  }
+}
